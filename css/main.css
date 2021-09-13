@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+			   
+	/*slide 1 */
+		#slidewrap {width:1200px; height:500px; position:relative; overflow: hidden;}
+		.slide {width:3600px; height:100%;}
+		.slide li {width:1200px; height:100%; float:left}
+		.slide li a img {width:100%; height:100%}
+		#slidewrap span {position:absolute; top:50%; transform: translateY(-50%); width:50px; height:50px; margin: 10px;} 
+		#slidewrap span:hover {cursor: pointer;}
+		.prev {left:0;}
+		.next {right: 0;}
+
+		
+	/*slide 2*/
+		#wrap {width:1200px; height:455px; padding: 30px 0 30px 0; box-sizing:border-box; position: relative;}
+		#slide_2 {width:905px; height:395px; float:left;}
+		#slide_2:hover {opacity: 0.7; transition:0.5s}
+		#slide_2 > li {position: absolute;}
+		#slide_2 > li:not(:first-child) {display: none;}
+		#slide_2 > li > a > .banner {position: absolute; top:80px; left:50px}
+		#slide_2 > li > a > .banner h2 {font-family: 'Josefin Sans', sans-serif; font-weight:300; font-size:40px; color:#999; }
+		#slide_2 > li > a > .banner span {color:#4F7D41}
+		#slide_2 > li > a > .banner hr {width:75px ; float:left; border:0; border:1px solid #BDBDBD; display:block;}
+		#slide_2 > li > a > .banner p {line-height:22px; font-size:12px; color:#555}
+		#slide_2 > li > a > .banner p span {color:#4F7D41; font-size:14px; font-weight:bold}
+
+ 		#wrap > a > #shop {background-image:url(../img/mainbanner_right.jpg); width:275px; height:395px; float:right; text-align:center; }
+		#wrap > a > #shop:hover {opacity:0.7; transition:0.5s;}
+		#wrap > a > #shop > h4 {margin:60px 0 0 0; font-weight:bold; color:#555; font-size:15px; letter-spacing:3px}
+		#wrap > a > #shop > p {margin:280px 0 0 0; color:#777; font-size:12px}
+
+
+
+		#mdbox {width:1200px; height:720px; padding:50px 0 70px 0; box-sizing:border-box;}
+		   #mdbox > h2 {font-family: 'Josefin Sans', sans-serif; font-weight:300; font-size:20px; text-align: center; width:1200px; margin:0 0 10px 0}
+		   #mdbox > h2 > span {font-family: 'Josefin Sans', sans-serif; font-weight:600; }
+		   #mdbox > a {text-decoration:none; color:black; text-align:center;}
+		   #mdbox > a {width:230px; height:230px; float:left; box-sizing:border-box; margin: 30px 12.5px 0px 0; position:relative; overflow:hidden; background-color:#555;}
+		   #mdbox > a:nth-of-type(5n) {margin: 30px 0px 0px 0;}
+
+
+		   #mdbox > a > .mdpbox > .mdibox {width:230px; height:230px; ; position:absolute;}
+		   #mdbox > a > .mdpbox > .mdibox > img {width:230px; height:230px}
+
+		   #mdbox > a > .mdpbox > .mdtbox {width:150px; background-color:#FAFAFA; padding:15px; position:absolute; bottom:-50%; left:10%; opacity:0;}
+		   #mdbox > a > .mdpbox > .mdtbox > p {font-size:12px; margin: 0 0 5px 0;}
+		   #mdbox > a > .mdpbox > .mdtbox > h4 {font-size:14px;}
+
+		   #mdbox > a > .mdpbox:hover .mdibox{opacity:0.5;}
+		   #mdbox > a > .mdpbox:hover .mdtbox{bottom:10%; transition:0.6s; opacity:1;}
+
+
+
+		
+		
+
+		#only {width:1200px; height:530px; padding:50px 0 70px 0;}
+		   #only > h2 {font-family: 'Josefin Sans', sans-serif; font-weight:300; font-size:20px; text-align: center; width:1200px; margin:0 0 10px 0;}
+		   #only > h2 > span {font-family: 'Josefin Sans', sans-serif; font-weight:600; }
+
+		   #only > #onlysliderbox {width:830px; height:410px; float:left; margin:30px 0 0 0; position:relative;}
+		   
+		   #only > #onlysliderbox > .onlyibox {width:830px; height:410px; position:absolute;}
+
+		   #only > #onlysliderbox > .onlyibox {background-color:#333;}
+		   #only > #onlysliderbox > .onlytbox {width:830px; height:410px; box-sizing:border-box; padding:160px 0 0 0;  position:absolute; }
+		   #only > #onlysliderbox > .onlytbox > h3 {margin:0 0 20px 0; font-size:14px; text-align:center; color:white;}
+		   #only > #onlysliderbox > .onlytbox  > a {text-decoration:none; color:black; font-weight:bold;}
+		   #only > #onlysliderbox > .onlytbox  > a >.viewmap {font-family: 'Josefin Sans', sans-serif; font-weight:600; width:120px; height:30px; text-align:center; box-sizing:border-box; padding:8px; background:#fff; color:black;}
+		   #only > #onlysliderbox > .onlytbox  > a >.viewmap:hover {background-color:#E1D7D2;}
+
+		   #only > #onlysliderbox > .onlytbox {opacity:0}
+ 		   #only > #onlysliderbox:hover .onlytbox{opacity:1; transition:1s}
+ 		   #only > #onlysliderbox:hover .onlyibox img{opacity:0.5; transition:1s}
+
+
+		   #only > a {background-image:url(../img/only_right01.jpg);width:360px; height:200px;  float:right; text-decoration:none; color:#000; margin:30px 0 0 0}
+		   #only > a:nth-of-type(2) {background-image:url(../img/only_right02.jpg); margin:10px 0 0 0}
+
+		   #only > a > #flowerpot > h5 {font-size:13px; margin:120px 0 5px 10px;}
+		   #only > a > #flowerpot > p {font-size:11px; line-height:18px; margin:0px 0 0 10px; text-shadow:-0.5px -0.5px 0px white;}
+
+
+
+
+
+		 #new {width:1200px; height:1100px; padding:50px 0 70px 0; box-sizing:border-box;}
+		   #new > h2 {font-family: 'Josefin Sans', sans-serif; font-weight:600; font-size:20px; text-align: center; width:1200px; margin:0 0 10px 0;}
+		   #new > h2 > span {font-family: 'Josefin Sans', sans-serif; font-weight:300; }
+
+		   #new > .nbox {width:285px; height:420px; float:left; margin:40px 20px 30px 0; overflow:hidden; text-align:center;}
+		   #new > .nbox:nth-of-type(4) {margin:40px 0px 30px 0;}
+		   #new > .nbox:nth-of-type(5) {margin:25px 20px 0 0;}
+		   #new > .nbox:nth-of-type(6) {margin:25px 20px 0 0;}
+		   #new > .nbox:nth-of-type(7) {margin:25px 20px 0 0;}
+		   #new > .nbox:last-of-type {margin:25px 0 0 0;}
+		      #new > .nbox > a > img {width:285px; height:285px}
+		      #new > .nbox > p > a {font-size:12px; margin: 8px 0 0 0; text-decoration:none; color:black;}
+		      #new > .nbox > h4 {font-size:13px; margin: 8px 0 0 0; color:#E09F7B;}
+		      #new > .nbox > .newicon {width:285px; height:20px; margin: 8px 0 8px 0}
+		      #new > .nbox > #iconbox {width:84px; height:38px; }
+		      #new > .nbox > #iconbox > .icon {width:38; height:38px; float:left; margin: 0 8px 0 0; }
+		      #new > .nbox > #iconbox > .icon:last-of-type {margin:0;} 
+
+
+		#instar {width:1200px; height:375px; padding:30px 0 70px 0; box-sizing:border-box; overflow:hidden;}
+		   #instar > h2 {font-family: 'Josefin Sans', sans-serif; font-weight:600; font-size:20px; text-align: center; width:1200px; margin:15px 0 0 0;}
+		   #instar > .ibox {width:150px; height:150px; float:left; margin:50px 25px 0 0}
+		   #instar > .ibox:last-of-type {margin:50px 0 0 0;}
+		   #instar > .ibox:hover {opacity:0.5; transition:0.5s;}
+

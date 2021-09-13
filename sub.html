@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+
+<html>	
+	<head>
+
+	<meta charset="UTF-8">
+	<title>JENIEONE</title>
+	<link href="css/common.css" rel="stylesheet">
+	<link href="css/sub.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+	</head>
+
+
+	<body>
+		<header>
+			<div id="hbarw">
+				<div id="hbar">
+					<ul>
+						<li><a href="#">로그인</a></li>
+						<li>│</li>
+						<li><a href="#">회원가입</a></li>
+						<li>│</li>
+						<li><a href="#">장바구니</a></li>
+						<li>│</li>
+						<li><a href="#">주문내역</a></li>
+						<li>│</li>
+						<li><a href="#">마이페이지</a></li>
+					</ul>
+					<div id="hbaricon">
+					     <ul>
+						<a href="#"><li>고객센터안내</li></a>
+						<a href="#"><li>온라인집들이</li></a>
+					     </ul>
+					</div>
+				</div>
+			</div>
+
+			<div id="headerbox">
+				<div class="topmenu"><a href="#"><h3>01 베스트</h3></a></div>
+				<div class="topmenu"><a href="#"><h3>02 특가상품</h3></a></div>
+				<div class="topmenu"><a href="#"><h3>03 커뮤니티</h3></a></div>
+				<div id="logo"><a href="index.html"><img src="img/toplogo.gif" alt="toplogo"></a></div>
+				<div id="search">
+					<input type="search" name="search">
+					<button><a href="#"><img src="img/btnSear.png" alt="searchbutton"></a></button>
+				</div>
+			</div>	
+
+			<nav>
+				<ul>
+					<li><a href="#">전체상품</a></li>
+					<li><a href="#">마크라메&소품</a></li>
+					<li><a href="#">조화&조화나무</a></li>
+					<li><a href="#">화분&화병</a></li>
+					<li><a href="#">조명&캔들홀더</a></li>
+					<li><a href="#">라탄소품&수납</a></li>
+					<li><a href="#">철제 벽장식</a></li>
+				</ul>
+			</nav>
+
+
+		</header>
+
+
+			
+<!--서브페이지 시작-->
+
+		<div id="sub">
+<!--결제페이지-->
+			<div id="productlist">	
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li>></li>
+				<li><a href="#">전체상품</a></li>
+				<li>></li>
+				<li><a href="#">화분&화병</a></li>				
+			</ul>
+			</div>
+
+
+			<div id="productbox">
+
+				<h2>물결 웨이브 도자기 화병</h2>	
+				<hr>
+				<div id="productpart">
+					<div id="mainproduct"><img src="img/sub_mainproduct01.png" alt="smallscreen01" id="cimg"></div>
+					<div class="nextbtn">
+						<ul>
+							<li><a href="#"><img src="img/detail_arrow_01.png" alt="nextbtn"> 이전상품</a></li>
+							<li>│</li>
+							<li><a href="#"><img src="img/detail_arrow_03.png" alt="nextbtn"> 확대보기</a></li>
+							<li>│</li>
+							<li><a href="#">다음상품 <img src="img/detail_arrow_02.png" alt="nextbtn"></a></li>
+						</ul>						
+					</div>
+
+					<div id="subproduct">
+					<ul>
+						<li><img src="img/sub_mainproduct01.png" alt="smallscreen01"></li>
+						<li><img src="img/sub_mainproduct02.png" alt="smallscreen02"></li>
+						<li><img src="img/sub_mainproduct03.png" alt="smallscreen03"></li>
+						<li><img src="img/sub_mainproduct04.png" alt="smallscreen04"></li>
+						<li><img src="img/sub_mainproduct05.png" alt="smallscreen05"></li>
+						<li><img src="img/sub_mainproduct06.png" alt="smallscreen06"></li>
+					</ul>
+					</div>
+
+			<script>
+
+				$(document).ready(function(){
+
+				$("#subproduct > ul > li:first-of-type").click(function(){$("#cimg").attr("src","img/sub_mainproduct01.png");});
+				$("#subproduct > ul > li:nth-of-type(2)").click(function(){$("#cimg").attr("src","img/sub_mainproduct02.png");});
+				$("#subproduct > ul > li:nth-of-type(3)").click(function(){$("#cimg").attr("src","img/sub_mainproduct03.png");});
+				$("#subproduct > ul > li:nth-of-type(4)").click(function(){$("#cimg").attr("src","img/sub_mainproduct04.png");});
+				$("#subproduct > ul > li:nth-of-type(5)").click(function(){$("#cimg").attr("src","img/sub_mainproduct05.png");});
+				$("#subproduct > ul > li:last-of-type").click(function(){$("#cimg").attr("src","img/sub_mainproduct06.png");});
+   				});
+
+			</script>
+				</div>
+
+
+
+
+
+				<div id="pricepart">
+					<div id="priceinfo">
+						<table>
+							<tr>
+								<th>판매가</th>
+								<td>24,900원</td>
+							</tr>
+							<tr>
+								<td>국내·해외배송</td>
+								<td>국내배송</td>
+							</tr>
+							<tr>
+								<td>배송방법</td>
+								<td>택배</td>
+							</tr>
+							<tr>
+								<td>배송비</td>
+								<td>2,500원 (30,000원 이상 구매 시 무료)</td>
+							</tr>
+							<tr>
+								<td>SNS 상품홍보</td>
+								<td><img src="img/icon_facebook.gif" alt="snsicon"><img src="img/icon_twitter.gif" alt="snsicon"></td>
+							</tr>
+
+							<tr>
+								<td>색상</td>
+								<td>
+								     <select>
+									<option vlaue="선택">[필수]옵션을 선택해 주세요</option>
+									<option vlaue="선택" disabled>-------------------------------------</option>
+									<optgroup label="컬러">
+									  <option vlaue="핑크" selected>A 핑크</option>
+									  <option vlaue="그레이">B 그레이</option>
+									</optgroup>
+								     </select>
+								</td>
+							</tr>
+						</table>
+							<p>(최소 주문수량 한 개 이상)</p><br>
+							<div class="mark">!</div>
+							<p>위 옵션선택 박스를 선택하시면 아래에 상품이 추가됩니다.</p>
+							<hr>
+							
+							<div class="choicebox">
+								<table>
+									<tr>
+										<th>물결 웨이브 도자기 화병<br><span>A 핑크</span></th>
+										<td>
+										     <select name="number">
+											<option>1</option>
+										     </select>
+										</td>
+										<td>24,900원</td>
+									</tr>
+								</table>							
+							</div>
+
+
+							<p><span>총 상품금액</span>(수량) : <span>24,900원</span> (1개)</p>
+							<hr>
+
+					</div>
+
+					<ul>
+						<a href="#"><li>바로 구매하기</li></a>
+						<a href="#"><li>장바구니 담기</li></a>
+						<a href="#"><li>관심상품 등록</li></a>
+					</ul>
+						
+
+				</div>
+			</div>
+<!--네비게이션바-->
+			<div id="buttonbar1">
+				<ul>
+					<a href="#"><li>관련상품</li></a>
+					<a href="#buttonbar1"><li>상세정보</li></a>
+					<a href="#buttonbar2"><li>상품후기</li></a>
+					<a href="#buttonbar3"><li>상품문의</li></a>
+					<a href="#sub"><li>상단으로</li></a>
+				</ul>
+			</div>
+
+<!--상세페이지-->		
+			<div id="detail">
+				<h3>JENIEONE</h3>
+				<h1>물결 웨이브 도자기 화병</h1>
+				<hr>
+				<img src="img/detail01.jpg" alt="detail">
+
+
+				<img src="img/detail02.jpg" alt="detail">
+
+				<p>부드러운 곡선의 우아한 물결 웨이브 도자기 화병입니다.</p><br>
+				<p>모던하고 깔끔한 디자인에 광택 없는 매트한 느낌의<br> 세련되고 아름다운 꽃병입니다.</p><br>
+				<p>제품에 따라 화병의 입구 물결 디테일에 차이가 있어요.<br>도자기를 굽는 과정에서 변형이 발생한 것으로 이는 하자가 아닙니다.</p><br>
+				<p>* 주의사항 *<br>도자기 화병 특성상, 사이즈가 조금씩 틀릴 수 있으며,<br>약간의 찍힘이나 작은 검은 점이 있을 수 있고<br>이음새 부분이 매끄럽지 않을 수 있습니다.<br>이는 제품의 하자가 아니므로, 이로 인한 교환 및 반품은 불가하오니 신중한 구매 부탁드립니다.</p><br>
+
+				<img src="img/detail03.jpg" alt="detail">
+				<img src="img/detail04.jpg" alt="detail">
+				<img src="img/detail05.jpg" alt="detail">
+				<img src="img/detail06.jpg" alt="detail">
+				<img src="img/detail07.jpg" alt="detail">
+
+				<p>위 사진의 그레이 화병 입구 모양과 핑크 화병 입구 모양의 차이는<br> 도자기를 굽는 과정에서 발생한 것으로<br> 제품에 따라 서로 다를 수 있습니다. <br>이는 하자가 아니므로 구매 전에 신중히 생각하신 후 구매 부탁드립니다.</p>
+
+				<img src="img/title_icon.png" alt="diamondicon">
+				<h1>A 핑크</h1>
+				<img src="img/detail08.jpg" alt="detail">
+				<img src="img/detail09.jpg" alt="detail">
+				<img src="img/detail10.jpg" alt="detail">
+
+				<img src="img/title_icon.png" alt="diamondicon">
+				<h1>B. 그레이</h1>
+				<img src="img/detaiL11.jpg" alt="detail">
+				<img src="img/detail12.jpg" alt="detail">
+				<img src="img/detail13.jpg" alt="detail">
+
+				<img src="img/title_icon.png" alt="diamondicon">
+				<img src="img/detail14.jpg" alt="detail">
+
+				<img src="img/title_icon.png" alt="diamondicon">
+
+				<img src="img/brand_story.jpg" alt="brand_story">
+
+				<div class="copyright">
+					<img src="img/toplogo.gif" alt="logo">
+					<p>제니원의 모든 이미지는 제니원의 사유재산이며<br>저작권법상 보호를 받습니다.<br>상업적인 목적으로써 이미지 도용을 금지합니다.</p>
+				</div>
+
+				<img src="img/title_icon.png" alt="diamondicon">
+				<h1>CUSTOMER CENTER</h1><p>구매하시기 전에 꼭 읽어주세요!</p>
+				<h4>구매시 주의사항</h4>
+				<p>1. 디자이너 분들이 하나하나 수작업으로 만드는 작품입니다.<br><span>최대한 비슷하게 만들고 있지만, 제품마다 조금씩 변형이 있을 수 있습니다.</span></p>
+				<p>2.  모니터 사양에 따라 실제 색과 차이 날 수 있습니다.</p>
+
+				<hr>
+
+				<h4>배송정보</h4>
+				<p>1. 단순 변심에 의한 반품인 경우 왕복 택배비(5,000원)은 고객 부담이며, <br>포장을 개봉한 후에는 교환, 환불이 불가능합니다. <br><span>(리본, 지류는 특성 상 개봉 후 교환, 반품을 해드릴 수 없습니다.)</span></p>
+				<p>2. 제품에 하자가 있을 경우에만 교환 및 반품이 가능하며, <br>제니원(031-604-1155-6)으로 교환 및 반품 접수 후 로젠택배를 이용해 구매 후 7일 이내 보내주세요.<br><span>(타 택배, 편의점 택배 이용 시 반송처리)</span></p>
+
+				<hr>
+
+				<h4>교환 및 환불 주소</h4>
+				<p>경기도 성남시 중원구 상대원동 사기막골로 45번길 14,<br>우림 라이온스밸리 2차 B동 1213호</p>
+
+				<div class="call"><img src="img/delivery.jpg" alt="delivery"></div>
+
+				<table>
+					<caption>상품 정보 제공 고시</caption>
+					<tr>
+						<th>품명 및 모델명</th>
+						<td>물결 웨이브 도자기 화병</td>
+					</tr>
+					<tr>
+						<th>허가관련</th>
+						<td>해당사항 없음</td>
+					</tr>
+					<tr>
+						<th>제조자</th>
+						<td>jenieone, 제니원</td>
+					</tr>
+					<tr>
+						<th>제조국 또는 원산지</th>
+						<td>중국</td>
+					</tr>
+					<tr>
+						<th>A/S 책임자</th>
+						<td>상품상세참조</td>
+					</tr>
+					<tr>
+						<th>A/S 전화번호</th>
+						<td>031-604-1155</td>
+					</tr>
+				</table>
+			</div>
+
+<!--네비게이션바-->
+			<div id="buttonbar2">
+				<ul>
+					<a href="#"><li>관련상품</li></a>
+					<a href="#buttonbar1"><li>상세정보</li></a>
+					<a href="#buttonbar2"><li>상품후기</li></a>
+					<a href="#buttonbar3"><li>상품문의</li></a>
+					<a href="#sub"><li>상단으로</li></a>
+				</ul>
+			</div>
+
+<!--상품후기-->
+			<div id="board">
+				<table>
+				     <caption>상품의 사용후기를 적어주세요.</caption>
+				     <tr>
+					<th>번호</th>
+					<th>제목</th>
+					<th>작성자</th>
+					<th>작성일</th>
+					<th>조회</th>
+				     </tr>
+				     <tr>
+					<td>3</td>
+					<td><a href="#">화병이 예쁘고 튼튼해요 <span>[1]</span><a></td>
+					<td>네****</td>
+					<td>2020-08-20</td>
+					<td>12</td>
+				     </tr>
+				     <tr>
+					<td>2</td>
+					<td><a href="#">조화 처음 사보는데 퀄리티가 진짜 좋은 것 같아요 130 살지 160살지 고민 많이 하다 130 샀는데 가지를 살... <span>[1]</span><a></td>
+					<td>네****</td>
+					<td>2020-07-29</td>
+					<td>26</td>
+				     </tr>
+				     <tr>
+					<td>1</td>
+					<td><a href="#">만족스러워요 <span>[1]</span><a></td>
+					<td>네****</td>
+					<td>2019-06-20</td>
+					<td>62</td>
+				     </tr>
+				     <tr>
+					<td colspan="5"><ul><a href="#"><li>후기 작성하기</li></a><a href="#"><li>모두보기</li></a></ul></td>
+				     </tr>
+				</table>
+			</div>
+
+
+<!--네비게이션바-->
+			<div id="buttonbar3">
+				<ul>
+					<a href="#"><li>관련상품</li></a>
+					<a href="#buttonbar1"><li>상세정보</li></a>
+					<a href="#buttonbar2"><li>상품후기</li></a>
+					<a href="#buttonbar3"><li>상품문의</li></a>
+					<a href="#sub"><li>상단으로</li></a>
+				</ul>
+			</div>
+
+
+<!--상품문의-->
+			<div id="board">
+
+				<table>
+				     <caption>상품에 대한 궁금점을 해결해 드립니다.</caption>
+				     <tr>
+					<th>게시물이 없습니다</th>
+				     </tr>
+				     <tr>
+					<td><ul><a href="#"><li>상품 문의하기</li></a><a href="#"><li>모두보기</li></a></ul></td>
+				     </tr>
+				</table>
+			</div>
+		</div>
+
+<!--서브페이지 끝-->
+
+
+
+		<footer>
+			<div id="fbarw">
+				<div id="fbar">
+					<ul>
+					   <li><a href="#">홈으로</a></li>
+					   <li>│</li>
+					   <li><a href="#">회사소개</a></li>
+					   <li>│</li>
+					   <li><a href="#">이용안내</a></li>
+					   <li>│</li>
+					   <li><a href="#">이용약관</a></li>
+					   <li>│</li>
+					   <li><a href="#">개인정보취급방침</a></li>
+					</ul>
+	
+					<div id="fcon">
+						<a href="#"><img src="img/icon_storefarm.png" alt="fcon"></a>
+						<a href="#"><img src="img/icon_bookmark.png" alt="fcon"></a>
+						<a href="#"><img src="img/icon_insta.png" alt="fcon"></a>
+						<a href="#"><img src="img/icon_kakao.png" alt="fcon"></a>
+					</div>
+				</div>
+			</div>
+
+			<div id="info">							
+				<div id="infobox">
+					<h3>공지사항</h3><br>
+					<ul>
+						<li><a href="#">[품절안내] 행잉 플랜트 조화 고사리 장식 M</a></li>
+						<li><a href="#">[품절안내] 4가지 고사리 바인 넝쿨 조화</a></li>
+						<li><a href="#">[품절안내] 아레카야자 나무 조화 90cm</a></li>
+						<li><a href="#">화이트 무광 도자기 화병 L 사이즈 색상 변경</a></li>
+
+					</ul>
+				</div>
+
+
+				<div id="infobox">
+					<h3>고객센터 이용안내</h3>
+					<h1>031.604.1155</h1>
+					<p>
+					평일 오전 10시-오후 5시<br>점심 오후 12:30분-오후 1:30분<br>
+					토요일, 일요일, 공휴일 휴무<br>
+					</p>
+					
+				</div>
+
+				<div id="infobox">
+					<h3>퀵메뉴</h3><br>
+					<div class="quickinfo"><a href="#"><span>주문내역 조회</span></a></div>
+					<div class="quickinfo"><a href="#"><span>장바구니</span></a></div>
+					<div class="quickinfo"><a href="#"><span>관심상품</span></a></div>
+					<div class="quickinfo"><a href="#"><span>자주 묻는 질문</span></a></div>
+					<div class="quickinfo"><a href="#"><span>상품문의</span></a></div>
+					<div class="quickinfo"><a href="#"><span>상품후기</span></a></div>
+					<div class="quickinfo"><a href="#"><span>이용택배사 [로젠택배 1588-9988]</span></a></div>
+				</div>
+			</div>
+
+		
+
+			<div id="footerbottom">
+				<div id="footerbox">
+					<p>
+					상호 제니원 | 대표 유재준 | 전화번호 031-604-1155 | 주소 13209 경기도 성남시 중원구 사기막골로45번길 14 (상대원동) 성남 우림 라이온스밸리2차 B동 1213호<br>
+					사업자등록번호 455-75-00120 [사업자정보확인] | 통신판매업번호 제2017-성남중원-0452호<br>
+					개인정보관리책임자 유재준, jenieone@naver.com<br>
+					모든 이미지 저작권은 제니원에 있으며, 이미지 무단 배포 및 사용을 금지합니다. | copyright @ 제니원
+					</p>
+				</div>
+			</div>
+		</footer>
+
+
+		</header>
+	</body>
